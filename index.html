@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Chithra R - Computer Science Engineering Student">
+    <title>Chithra R | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Chithra.<span>R</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-content hidden">
+                <h2 class="greeting">Hi there, I'm</h2>
+                <h1 class="name">Chithra R</h1>
+                <h3 class="title">Aspiring Software Engineer & AI Enthusiast</h3>
+                <p class="description">
+                    2nd Year CSE Student at Chennai Institute of Technology. Passionate about problem-solving, AI/ML, and building impactful web applications.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/chithra-r-962595327/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Chithra582" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:chithrar.cse2024@citchennai.net"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image hidden">
+                <div class="profile-placeholder">
+                    <img src="images/Chithra-Photo.jpeg" alt="Chithra R" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="section-title hidden">
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about-content hidden">
+                <div class="education-card glass">
+                    <i class="fas fa-graduation-cap icon"></i>
+                    <h3>Education</h3>
+                    <h4>BE in Computer Science and Engineering</h4>
+                    <p class="institution">Chennai Institute of Technology, Chennai</p>
+                    <p class="batch">Batch: 2024-2028 | 2nd Year</p>
+                    <p class="gpa">CGPA: <span>8.92</span></p>
+                </div>
+                
+                <div class="achievements-card glass">
+                    <i class="fas fa-trophy icon"></i>
+                    <h3>Problem Solving Achievements</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h4>280+</h4>
+                            <p>CodeChef</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>300+</h4>
+                            <p>LeetCode</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>810+</h4>
+                            <p>SkillRack</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="section-title hidden">
+                <h2>My <span>Skills</span></h2>
+            </div>
+            <div class="skills-container hidden">
+                <div class="skill-category glass">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Angular</span>
+                    </div>
+                </div>
+                <div class="skill-category glass">
+                    <h3>Backend & Database</h3>
+                    <div class="skill-tags">
+                        <span>Java</span><span>C++</span><span>SQL</span><span>MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category glass">
+                    <h3>Specializations</h3>
+                    <div class="skill-tags">
+                        <span>AI/ML</span><span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="section-title hidden">
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+            <div class="project-grid">
+                <div class="project-card glass hidden">
+                    <div class="project-info">
+                        <h3>Water Quality Prediction</h3>
+                        <p>Implemented an ML model to predict water potability using parameters like pH, hardness, etc. Performed data preprocessing with Pandas and NumPy and evaluated models using Scikit-learn.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Jupyter</span><span>Scikit-Learn</span><span>Pandas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card glass hidden">
+                    <div class="project-info">
+                        <h3>Freight Forwarding ERP</h3>
+                        <p>Built an Angular-based Call Sheet module supporting data entry, edit, delete, and table display functions for managing client call information with a responsive UI.</p>
+                        <div class="project-tags">
+                            <span>Angular</span><span>TypeScript</span><span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass hidden">
+                    <div class="project-info">
+                        <h3>Java Console Applications</h3>
+                        <p>Developed applications including a To-Do List Application and an Online Booking System for handling slot management, using OOP and ArrayList for data handling.</p>
+                        <div class="project-tags">
+                            <span>Java</span><span>OOP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Certifications -->
+        <section id="experience" class="experience section-padding">
+            <div class="section-title hidden">
+                <h2>Experience & <span>Certifications</span></h2>
+            </div>
+            <div class="exp-cert-container">
+                <div class="timeline glass hidden">
+                    <h3><i class="fas fa-briefcase"></i> Internships</h3>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>Web Development Intern</h4>
+                        <p class="company">Femtosoft Technologies</p>
+                        <p class="desc">Designed and developed project modules, implemented UI components, form handling using Angular.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>AI/ML Intern</h4>
+                        <p class="company">Edunet Foundation (AICTE Virtual)</p>
+                        <p class="desc">Worked on Water Quality Prediction using Python, Pandas, NumPy, and Scikit-learn.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>Java Programming Intern</h4>
+                        <p class="company">VaultofCode</p>
+                        <p class="desc">Developed applications focusing on OOP concepts, exception handling, and file management.</p>
+                    </div>
+                </div>
+
+                <div class="certifications glass hidden">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul class="cert-list">
+                        <li><span>Cisco</span> - Introduction to Modern AI</li>
+                        <li><span>Skill Rack</span> - C-Programming Course</li>
+                        <li><span>Infosys SpringBoard</span> - HTML & CSS</li>
+                        <li><span>Skill Rack</span> - SQL-Basics</li>
+                        <li><span>Skill Rack</span> - Java Basic-Programming</li>
+                        <li><span>MongoDB</span> - MongoDB Basic for Students</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="section-title hidden">
+                <h2>Get In <span>Touch</span></h2>
+            </div>
+            <div class="contact-container glass hidden">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+91 8778253940</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>chithrar.cse2024@citchennai.net</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="https://www.linkedin.com/in/chithra-r-962595327/" target="_blank">LinkedIn Profile</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p><a href="https://github.com/Chithra582" target="_blank">GitHub Profile</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Chithra R. Built for Excellence.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
