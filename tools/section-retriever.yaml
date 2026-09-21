@@ -1,0 +1,27 @@
+name: section-retriever
+description: Retrieves structural descriptions of each portfolio section including HTML element hierarchy, CSS classes applied, and content summary.
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    section:
+      type: string
+      enum: [home, about, skills, projects, experience, contact, navbar, all]
+      description: "Portfolio section to retrieve"
+  required:
+    - section
+output_schema:
+  type: object
+  properties:
+    section_id:
+      type: string
+    html_structure:
+      type: string
+    css_classes:
+      type: array
+      items:
+        type: string
+    js_behavior:
+      type: string
+    content_summary:
+      type: string

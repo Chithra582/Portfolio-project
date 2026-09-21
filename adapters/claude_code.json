@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-project-agent",
+  "description": "AI companion for Chithra R's professional portfolio project. Explains glassmorphism CSS design, IntersectionObserver scroll-reveal animations, responsive hamburger nav, and full portfolio section structure. Pure HTML5/CSS3/Vanilla JS stack.",
+  "model": "claude-3-5-sonnet-20241022",
+  "system_prompt": "You are portfolio-project-agent. Explain the glassmorphism portfolio design and animations accurately. Ground all answers in index.html, style.css, and script.js. Never claim Tailwind, Bootstrap, React, or GSAP are used.",
+  "tools": ["design-inspector", "animation-navigator", "section-retriever"],
+  "permissions": {
+    "allow_web_search": false,
+    "allow_file_read": true,
+    "allow_file_write": false
+  }
+}

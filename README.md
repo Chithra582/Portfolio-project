@@ -1,54 +1,63 @@
-# Chithra R - Professional Portfolio
+# Portfolio Project — Chithra R
 
-Welcome to the personal portfolio of **Chithra R**, an aspiring Software Engineer and AI Enthusiast currently pursuing her BE in Computer Science and Engineering at the Chennai Institute of Technology.
+![HiDevs GitAgent Passport](https://img.shields.io/badge/HiDevs-GitAgent%20Passport-blueviolet?style=flat-square)
+![OpenGAP](https://img.shields.io/badge/OpenGAP-v0.1.0-blue?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Agent](https://img.shields.io/badge/agent-portfolio--project--agent-orange?style=flat-square)
 
-This portfolio is designed to showcase her skills, projects, educational background, internships, and achievements in a modern, dynamic, and visually striking format, specifically tailored for competitions and professional showcases.
+A premium **glassmorphism dark-mode portfolio website** for Chithra R — Aspiring Software
+Engineer and AI Enthusiast, 2nd Year BE CSE at Chennai Institute of Technology.
 
-## 🌟 Key Features
+## Design Highlights
+| Feature | Implementation |
+|---|---|
+| Glassmorphism UI | `backdrop-filter: blur()`, frosted glass borders, `rgba()` backgrounds |
+| Dark-mode Neon Palette | CSS variables — cyan (`#00f5ff`) + indigo neon accents |
+| Scroll Reveal Animations | `IntersectionObserver` API + `.hidden`/`.visible` CSS transitions |
+| Floating Background Blobs | CSS `@keyframes` ambient gradient animation |
+| Responsive Navigation | Hamburger menu with `classList.toggle('active')` |
+| Typography | Outfit (headings) + Inter (body) from Google Fonts |
+| Icons | FontAwesome 6.4.0 (CDN) |
 
-- **Modern Glassmorphism Design:** A stunning dark-mode UI with vibrant neon accents (Cyan and Indigo) and glass-like frosted panels for a premium aesthetic.
-- **Dynamic Scroll Animations:** Content elegantly reveals itself as you scroll down the page, providing an engaging user experience.
-- **Responsive Layout:** fully optimized for both desktop and mobile viewing with a mobile-friendly slide-out navigation menu.
-- **Floating Background Elements:** Subtle, animated background gradients that add depth without distracting from the core content.
+## Tech Stack
+HTML5 · CSS3 (Variables, Glassmorphism, Keyframes) · Vanilla JavaScript · Google Fonts · FontAwesome
 
-## 🛠️ Technologies Used
+## Sections
+Home/Hero · About · Skills · Projects · Experience · Contact
 
-This project is built using core web technologies for maximum performance and complete design control:
-
-- **HTML5:** Semantic structure and content.
-- **CSS3:** Custom styling, CSS variables, flexbox/grid layouts, keyframe animations, and glassmorphism effects.
-- **JavaScript (Vanilla):** Scroll reveal logic using the `IntersectionObserver` API, and mobile navigation toggling.
-- **Google Fonts:** Utilizing 'Outfit' for headings and 'Inter' for body text.
-- **FontAwesome:** For intuitive icons across the site.
-
-## 🚀 How to Run
-
-Running this portfolio locally is incredibly simple. No build tools or package managers are required!
-
-1. Clone or download this repository to your local machine.
-2. Ensure you have the profile picture located at `images/Chithra-Photo.jpeg`.
-3. Open the `index.html` file in any modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, etc.).
-   - You can do this by double-clicking the `index.html` file, or dragging it into an open browser window.
-   - Alternatively, you can use an extension like "Live Server" in VS Code for a better local development experience.
-
-## 📁 Project Structure
-
-```text
-portfolio-project/
-│
-├── index.html           # The main HTML structure
-├── style.css            # All custom CSS and animations
-├── script.js            # JavaScript for interactions and scroll reveals
-└── images/
-    └── Chithra-Photo.jpeg # Profile Image
+## Repository Structure
+```
+Portfolio-project/
+├── agent.yaml
+├── SOUL.md
+├── RULES.md
+├── DUTIES.md
+├── AGENTS.md
+├── EXPLAINABILITY.md
+├── README.md
+├── LICENSE
+├── index.html
+├── style.css
+├── script.js
+├── images/
+├── agent.py
+├── skills/
+│   ├── glassmorphism-design-guide/SKILL.md
+│   ├── scroll-animation-explainer/SKILL.md
+│   └── portfolio-structure-walkthrough/SKILL.md
+├── tools/
+│   ├── design-inspector.yaml
+│   ├── animation-navigator.yaml
+│   └── section-retriever.yaml
+└── adapters/
+    ├── openai_agent.py
+    ├── crewai_agent.py
+    ├── claude_code.json
+    └── lyzr_agent.py
 ```
 
-## 📬 Contact Information
+## HiDevs GitAgent Passport
+Submit at: https://app.hidevs.xyz/passport/submit — Category: **Developer tools**
 
-- **Email:** [chithrar.cse2024@citchennai.net](mailto:chithrar.cse2024@citchennai.net)
-- **LinkedIn:** [Chithra R](https://www.linkedin.com/in/chithra-r-962595327/)
-- **GitHub:** [Chithra582](https://github.com/Chithra582)
-- **Phone:** +91 8778253940
-
----
-*Designed and built for excellence.*
+## Author
+Chithra R — https://github.com/Chithra582 | https://www.linkedin.com/in/chithra-r-962595327/

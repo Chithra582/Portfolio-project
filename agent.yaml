@@ -1,0 +1,53 @@
+spec_version: "0.1.0"
+name: "portfolio-project-agent"
+version: "1.0.0"
+description: >
+  AI agent for Chithra R's professional portfolio project — a glassmorphism dark-mode
+  single-page website with scroll-reveal animations, IntersectionObserver API, CSS
+  variables, responsive hamburger nav, and FontAwesome icons. Assists with design
+  explanation, CSS animation walkthroughs, and portfolio structure queries.
+author: "Chithra R"
+license: "MIT"
+model:
+  preferred: "gemini-2.0-flash"
+  fallback:
+    - "gpt-4o-mini"
+    - "claude-3-5-sonnet"
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
+skills:
+  - glassmorphism-design-guide
+  - scroll-animation-explainer
+  - portfolio-structure-walkthrough
+tools:
+  - design-inspector
+  - animation-navigator
+  - section-retriever
+compliance:
+  risk_tier: standard
+  frameworks:
+    - gdpr
+  data_governance:
+    pii_handling: redact
+    data_classification: internal
+  recordkeeping:
+    audit_logging: true
+    log_format: structured_json
+  supervision:
+    human_in_the_loop: conditional
+    override_capability: true
+    kill_switch: true
+tags:
+  - portfolio
+  - glassmorphism
+  - css-animations
+  - intersection-observer
+  - responsive
+  - dark-mode
+  - html5
+  - css3
+  - javascript
+metadata:
+  domain: "developer-tools"
+  category: "Developer tools"

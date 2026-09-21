@@ -1,0 +1,24 @@
+name: design-inspector
+description: Inspects and describes CSS design properties used in the portfolio glassmorphism system including custom variables, backdrop-filter values, and keyframe animation rules.
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    property:
+      type: string
+      description: "CSS property or variable to inspect (e.g., backdrop-filter, --cyan, @keyframes blob)"
+    element:
+      type: string
+      description: "HTML element or CSS class to inspect (e.g., .glass-card, .blob, :root)"
+  required: []
+output_schema:
+  type: object
+  properties:
+    property:
+      type: string
+    value:
+      type: string
+    visual_effect:
+      type: string
+    browser_support:
+      type: string

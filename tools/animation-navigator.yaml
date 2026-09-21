@@ -1,0 +1,29 @@
+name: animation-navigator
+description: Navigates the scroll-reveal animation system including IntersectionObserver configuration, CSS transition classes, and hamburger menu toggle logic.
+version: "1.0.0"
+input_schema:
+  type: object
+  properties:
+    animation_type:
+      type: string
+      enum: [scroll-reveal, blob, hamburger, navbar-scroll]
+      description: "Type of animation to navigate"
+    detail_level:
+      type: string
+      enum: [summary, full]
+  required: []
+output_schema:
+  type: object
+  properties:
+    animation_type:
+      type: string
+    trigger:
+      type: string
+    css_classes:
+      type: array
+      items:
+        type: string
+    js_pattern:
+      type: string
+    effect_description:
+      type: string
